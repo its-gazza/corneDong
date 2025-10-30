@@ -20,7 +20,11 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: corne_dongle prospector_adapter
+    # shield: corne_dongle prospector_adapter
+    shield: corne_dongle dongle_screen
+    #cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=8000 #optional if logging is enabled
+    #snippet: zmk-usb-logging #only enable for debugging
+    artifact-name: dongle-screen
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
 

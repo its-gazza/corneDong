@@ -17,5 +17,8 @@ manifest:
     - name: zmk-nice-oled
       remote: mctechnology17
       revision: main
+    - name: zmk-dongle-screen
+      remote: janpfischer
+      revision: main
   self:
     path: config
