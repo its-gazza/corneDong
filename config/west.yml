@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/carrefinho
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    - name: janpfischer
+      url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
