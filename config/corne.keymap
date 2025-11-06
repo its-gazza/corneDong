@@ -82,88 +82,75 @@
         compatible = "zmk,combos";
 
         tab {
+            timeout-ms = <20>;
             bindings = <&kp TAB>;
-            slow-release = true;
             key-positions = <2 3>;
         };
 
         git_commit {
             bindings = <&git_commit>;
             key-positions = <17 27>;
-            slow-release = true;
         };
 
         git_push {
             bindings = <&git_push>;
             key-positions = <17 10>;
-            slow-release = true;
         };
 
         tog_mac {
             bindings = <&tog 0>;
             key-positions = <16 19>;
-            slow-release = true;
             layers = <0>;
         };
 
         tog_win {
             bindings = <&tog 0>;
-            slow-release = true;
             key-positions = <28 31>;
         };
 
         python_hint {
             bindings = <&python_type_hint>;
-            slow-release = true;
             key-positions = <8 9>;
         };
 
         left_bracket {
             bindings = <&kp LEFT_BRACKET>;
-            slow-release = true;
             key-positions = <16 15>;
         };
 
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            slow-release = true;
             key-positions = <27 28>;
         };
 
         left_paren {
             bindings = <&kp LEFT_PARENTHESIS>;
-            slow-release = true;
             key-positions = <3 4>;
         };
 
         right_paren {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            slow-release = true;
             key-positions = <7 8>;
         };
 
         right_bracket {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <19 20>;
-            slow-release = true;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            slow-release = true;
             key-positions = <31 32>;
         };
 
         tilde {
             bindings = <&kp RS(GRAVE)>;
             key-positions = <21 20>;
-            slow-release = true;
         };
 
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <33 32>;
-            slow-release = true;
         };
     };
 
