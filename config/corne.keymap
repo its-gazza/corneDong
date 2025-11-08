@@ -144,7 +144,7 @@
         };
 
         tilde {
-            bindings = <&kp RS(GRAVE)>;
+            bindings = <&kp GRAVE>;
             key-positions = <21 20>;
         };
 
